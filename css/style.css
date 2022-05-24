@@ -1,0 +1,466 @@
+:root {
+
+  /* Colors: */
+  --unnamed-color-171c29: #171C29;
+  --unnamed-color-00000034: #00000034;
+  --unnamed-color-fff0f7: #FFF0F7;
+  --unnamed-color-979797: #979797;
+  --unnamed-color-303030: #303030;
+  --unnamed-color-242424: #242424;
+  --unnamed-color-434e95: #434E95;
+  --unnamed-color-897452: #897452;
+  --unnamed-color-64442a: #64442A;
+  --unnamed-color-e52c86: #E52C86;
+  --unnamed-color-707070: #707070;
+  --unnamed-color-c8b98c: #C8B98C;
+  --unnamed-color-2f2f2f: #2F2F2F;
+  --unnamed-color-b02372: #B02372;
+  --unnamed-color-ffffff: #FFFFFF;
+  --unnamed-color-000000: #000000;
+  
+  /* Font/text values */
+  --unnamed-font-family-noto-sans: Noto Sans;
+  --unnamed-font-family-genkaimincho: Genkaimincho;
+  --unnamed-font-family-source-han-serif: Source Han Serif;
+  --unnamed-font-family-noto-serif-jp: Noto Serif JP;
+  --unnamed-font-family-din-2014: DIN 2014;
+  --unnamed-font-family-noto-sans-jp: Noto Sans JP;
+  --unnamed-font-family-senobi-gothic: Senobi Gothic;
+  --unnamed-font-family-c-a-gatintas: C.A. Gatintas;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-style-italic: italic;
+  --unnamed-font-weight-600: 600px;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-weight-bold: bold;
+  --unnamed-font-weight-medium: medium;
+  --unnamed-font-size-9: 9px;
+  --unnamed-font-size-10: 10px;
+  --unnamed-font-size-14: 14px;
+  --unnamed-font-size-16: 16px;
+  --unnamed-font-size-18: 18px;
+  --unnamed-font-size-19: 19px;
+  --unnamed-font-size-20: 20px;
+  --unnamed-font-size-22: 22px;
+  --unnamed-font-size-24: 24px;
+  --unnamed-font-size-25: 25px;
+  --unnamed-font-size-31: 31px;
+  --unnamed-font-size-35: 35px;
+  --unnamed-font-size-38: 38px;
+  --unnamed-font-size-40: 40px;
+  --unnamed-font-size-44: 44px;
+  --unnamed-font-size-80: 80px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-character-spacing-0-95: 0.95px;
+  --unnamed-character-spacing-1-75: 1.75px;
+  --unnamed-character-spacing-0-9: 0.9px;
+  --unnamed-character-spacing-2-4: 2.4px;
+  --unnamed-line-spacing-13: 13px;
+  --unnamed-line-spacing-14: 14px;
+  --unnamed-line-spacing-19: 19px;
+  --unnamed-line-spacing-20: 20px;
+  --unnamed-line-spacing-23: 23px;
+  --unnamed-line-spacing-24: 24px;
+  --unnamed-line-spacing-26: 26px;
+  --unnamed-line-spacing-27: 27px;
+  --unnamed-line-spacing-28: 28px;
+  --unnamed-line-spacing-29: 29px;
+  --unnamed-line-spacing-31: 31px;
+  --unnamed-line-spacing-32: 32px;
+  --unnamed-line-spacing-35: 35px;
+  --unnamed-line-spacing-36: 36px;
+  --unnamed-line-spacing-45: 45px;
+  --unnamed-line-spacing-50: 50px;
+  --unnamed-line-spacing-55: 55px;
+  --unnamed-line-spacing-56: 56px;
+  --unnamed-line-spacing-58: 58px;
+  --unnamed-line-spacing-64: 64px;
+  --unnamed-line-spacing-102: 102px;
+  }
+  
+  /* Character Styles */
+  .unnamed-character-style-1 {
+  font-family: var(--unnamed-font-family-noto-serif-jp);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-medium);
+  font-size: var(--unnamed-font-size-14);
+  line-height: var(--unnamed-line-spacing-20);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  }
+  .unnamed-character-style-2 {
+  font-family: var(--unnamed-font-family-senobi-gothic);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-9);
+  line-height: var(--unnamed-line-spacing-13);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-2f2f2f);
+  }
+  .unnamed-character-style-3 {
+  font-family: var(--unnamed-font-family-senobi-gothic);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-10);
+  line-height: var(--unnamed-line-spacing-14);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-2f2f2f);
+  }
+  .unnamed-character-style-4 {
+  font-family: var(--unnamed-font-family-din-2014);
+  font-style: var(--unnamed-font-style-italic);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-24);
+  line-height: var(--unnamed-line-spacing-31);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-e52c86);
+  }
+  .unnamed-character-style-5 {
+  font-family: var(--unnamed-font-family-noto-serif-jp);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-14);
+  line-height: var(--unnamed-line-spacing-20);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  }
+  .unnamed-character-style-6 {
+  font-family: var(--unnamed-font-family-noto-sans-jp);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-bold);
+  font-size: var(--unnamed-font-size-16);
+  line-height: var(--unnamed-line-spacing-24);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-e52c86);
+  }
+  .unnamed-character-style-7 {
+  font-family: var(--unnamed-font-family-source-han-serif);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-600);
+  font-size: var(--unnamed-font-size-24);
+  line-height: var(--unnamed-line-spacing-35);
+  letter-spacing: var(--unnamed-character-spacing-2-4);
+  color: var(--unnamed-color-ffffff);
+  }
+  .unnamed-character-style-8 {
+  font-family: var(--unnamed-font-family-noto-serif-jp);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-medium);
+  font-size: var(--unnamed-font-size-18);
+  line-height: var(--unnamed-line-spacing-26);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  }
+  .unnamed-character-style-9 {
+  font-family: var(--unnamed-font-family-senobi-gothic);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-40);
+  line-height: var(--unnamed-line-spacing-56);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-e52c86);
+  }
+  .unnamed-character-style-10 {
+  font-family: var(--unnamed-font-family-senobi-gothic);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-20);
+  line-height: var(--unnamed-line-spacing-28);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-2f2f2f);
+  }
+  .unnamed-character-style-11 {
+  font-family: var(--unnamed-font-family-senobi-gothic);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-25);
+  line-height: var(--unnamed-line-spacing-36);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-2f2f2f);
+  }
+  .unnamed-character-style-12 {
+  font-family: var(--unnamed-font-family-senobi-gothic);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-40);
+  line-height: var(--unnamed-line-spacing-56);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-2f2f2f);
+  }
+  .unnamed-character-style-13 {
+  font-family: var(--unnamed-font-family-noto-sans-jp);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-20);
+  line-height: var(--unnamed-line-spacing-29);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-2f2f2f);
+  }
+  .unnamed-character-style-14 {
+  font-family: var(--unnamed-font-family-noto-sans-jp);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-medium);
+  font-size: var(--unnamed-font-size-40);
+  line-height: var(--unnamed-line-spacing-58);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-2f2f2f);
+  }
+  .unnamed-character-style-15 {
+  font-family: var(--unnamed-font-family-noto-serif-jp);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-18);
+  line-height: var(--unnamed-line-spacing-26);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  }
+  .unnamed-character-style-16 {
+  font-family: var(--unnamed-font-family-source-han-serif);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-600);
+  font-size: var(--unnamed-font-size-18);
+  line-height: var(--unnamed-line-spacing-26);
+  letter-spacing: var(--unnamed-character-spacing-0-9);
+  color: var(--unnamed-color-ffffff);
+  }
+  .unnamed-character-style-17 {
+  font-family: var(--unnamed-font-family-noto-serif-jp);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-31);
+  line-height: var(--unnamed-line-spacing-45);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-2f2f2f);
+  }
+  .unnamed-character-style-18 {
+  font-family: var(--unnamed-font-family-noto-sans-jp);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-16);
+  line-height: var(--unnamed-line-spacing-24);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-2f2f2f);
+  }
+  .unnamed-character-style-19 {
+  font-family: var(--unnamed-font-family-din-2014);
+  font-style: var(--unnamed-font-style-italic);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-80);
+  line-height: var(--unnamed-line-spacing-102);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-897452);
+  }
+  .unnamed-character-style-20 {
+  font-family: var(--unnamed-font-family-noto-serif-jp);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-44);
+  line-height: var(--unnamed-line-spacing-64);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  }
+  .unnamed-character-style-21 {
+  font-family: var(--unnamed-font-family-noto-sans-jp);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-38);
+  line-height: var(--unnamed-line-spacing-55);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  }
+  .unnamed-character-style-22 {
+  font-family: var(--unnamed-font-family-source-han-serif);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-bold);
+  font-size: var(--unnamed-font-size-35);
+  line-height: var(--unnamed-line-spacing-50);
+  letter-spacing: var(--unnamed-character-spacing-1-75);
+  color: var(--unnamed-color-ffffff);
+  }
+  .unnamed-character-style-23 {
+  font-family: var(--unnamed-font-family-c-a-gatintas);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-22);
+  line-height: var(--unnamed-line-spacing-32);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  }
+  .unnamed-character-style-24 {
+  font-family: var(--unnamed-font-family-source-han-serif);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-19);
+  line-height: var(--unnamed-line-spacing-27);
+  letter-spacing: var(--unnamed-character-spacing-0-95);
+  color: var(--unnamed-color-000000);
+  }
+  .unnamed-character-style-25 {
+  font-family: var(--unnamed-font-family-genkaimincho);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-19);
+  line-height: var(--unnamed-line-spacing-23);
+  letter-spacing: var(--unnamed-character-spacing-0-95);
+  color: var(--unnamed-color-000000);
+  }
+  .unnamed-character-style-26 {
+  font-family: var(--unnamed-font-family-noto-sans);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-14);
+  line-height: var(--unnamed-line-spacing-19);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-2f2f2f);
+  }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* width: 1440px; */
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: block;
+  position: relative;
+  /* width: 1440px; */
+  width: 100%;
+  height: 99px;
+  background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
+  
+}
+
+.top-logo-main {
+  position: absolute;
+  top: 11px;
+  left: 95px;
+  width:163px;
+  height: 71px;
+  background: transparent url('../img/グループ 35.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.top-logo-sub {
+  position: absolute;
+  top: 44px;
+  left: 286px;
+  width:128px;
+  height: 14px; 
+  background: transparent url('../img/グループ\ 36.png') 0% 0% no-repeat padding-box;
+  opacity: 1; 
+}
+
+.top-support {
+  position: absolute;
+  top: 25px;
+  right: 140px;
+  width: 400px;
+  height: 50px;
+  background: transparent url('../img/グループ 301.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+
+.top-image {
+  z-index: -1;
+  position: absolute;
+  top: -162px;
+  left: -2px;
+  /* width: 1442px; */
+  width: 100%;
+  height: 932px;
+  /* UI Properties */
+  background: transparent url('../img/グループ 305.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  /* background-size:cover ; */
+}
+
+.top-content {
+  display: block;
+  margin-top: 671px;
+}
+.top-campaign {
+  background-color: var(--unnamed-color-242424);
+  height: 1099.94px;
+  width: 100%;
+  z-index: -1;
+}
+
+.campaign-context {
+  /* position: relative; */
+  /* top: 931px;
+  left: 560px; */
+  padding-top:100px ;
+  margin: 0 auto;
+  width: 530px;
+  height: 40px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 28px/40px var(--unnamed-font-family-source-han-serif);
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal bold 28px/40px Source Han Serif;
+  letter-spacing: 1.4px;
+  color: #FFFFFF;
+  opacity: 1;
+  top:100px;
+}
+.campaign-context2 {
+  text-align: center;
+}
+
+.campain-background1 {
+/* Layout Properties */
+position: absolute;
+top: 242px;
+left: 494px;
+/* 本来のサイズwidth: 2153px; */
+/* 一旦フルスクリーンサイズ（1920px）に合わせて1426pxにしている */
+width: 1426px;
+height: 1650px;
+/* transform: matrix(-1, 0, 0, -1, 0, 0); */
+/* UI Properties */
+background: transparent url('../img/パス 36.png') 0% 0% no-repeat padding-box;
+opacity: 0.8;
+z-index: 1
+}
+
+.campain-background2 {
+  /* Layout Properties */
+  position: absolute;
+  top: 770px;
+  left: 0px;
+  width: 1435px;
+  height: 1100px;
+  /* UI Properties */
+  background: transparent url('../img/パス 35.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  z-index: -2;
+}
+.campaign-price_nav {
+  margin: 0 auto;
+  margin-top: 47.72px;
+  margin-bottom: 43.36px;
+  width: 343px;
+  height: 108px;
+  /* UI Properties */
+  background: transparent url('../img/パス 37.png') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 10px #FFFFFF65;
+  opacity: 1;
+}
+
+.campaign-price-parent {
+  width: 100%;
+  height: 389px;
+}
+
+.campaign-price {
+  margin: 0 auto;
+  width: 831px;
+  height: 467px;
+  /* UI Properties */
+  background: transparent url('../img/コンポーネント 5 – 1.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
