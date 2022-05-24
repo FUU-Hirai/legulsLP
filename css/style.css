@@ -324,6 +324,8 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/*********ヘッダー部分*******/
 .header {
   display: block;
   position: relative;
@@ -331,8 +333,15 @@ body {
   width: 100%;
   height: 99px;
   background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
-  
+  z-index: auto;
 }
+
+/* .header-child {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 99px;
+} */
 
 .top-logo-main {
   position: absolute;
@@ -364,13 +373,13 @@ body {
   opacity: 1;
 }
 
-
+/*******************トップ画像*******************/
 .top-image {
   z-index: -1;
   position: absolute;
   top: -162px;
   left: -2px;
-  /* width: 1442px; */
+  /* width: 1440px; */
   width: 100%;
   height: 932px;
   /* UI Properties */
@@ -379,6 +388,7 @@ body {
   /* background-size:cover ; */
 }
 
+/****************入会キャンペーン****************/
 .top-content {
   display: block;
   margin-top: 671px;
@@ -408,7 +418,9 @@ body {
   top:100px;
 }
 .campaign-context2 {
+  position: relative;
   text-align: center;
+  z-index: 2;
 }
 
 .campain-background1 {
@@ -417,8 +429,9 @@ position: absolute;
 top: 242px;
 left: 494px;
 /* 本来のサイズwidth: 2153px; */
-/* 一旦フルスクリーンサイズ（1920px）に合わせて1426pxにしている */
-width: 1426px;
+/* 一旦サイズ（1440px）に合わせて1426pxにしている */
+width: 946px;
+/* width: 100%; */
 height: 1650px;
 /* transform: matrix(-1, 0, 0, -1, 0, 0); */
 /* UI Properties */
@@ -426,6 +439,7 @@ background: transparent url('../img/パス 36.png') 0% 0% no-repeat padding-box;
 opacity: 0.8;
 z-index: 1
 }
+
 
 .campain-background2 {
   /* Layout Properties */
@@ -437,30 +451,34 @@ z-index: 1
   /* UI Properties */
   background: transparent url('../img/パス 35.png') 0% 0% no-repeat padding-box;
   opacity: 1;
-  z-index: -2;
+  /* z-index: 3; */
 }
 .campaign-price_nav {
+  position: relative;
   margin: 0 auto;
   margin-top: 47.72px;
   margin-bottom: 43.36px;
   width: 343px;
-  height: 108px;
+  height: 117px;
   /* UI Properties */
   background: transparent url('../img/パス 37.png') 0% 0% no-repeat padding-box;
-  box-shadow: 0px 3px 10px #FFFFFF65;
+  /* box-shadow: 0px 3px 10px #ffffff0f; */
   opacity: 1;
+  z-index: 2;
 }
 
 .campaign-price-parent {
   width: 100%;
-  height: 389px;
+  height: 323px;
 }
 
 .campaign-price {
+  position: relative;
   margin: 0 auto;
   width: 831px;
   height: 467px;
   /* UI Properties */
   background: transparent url('../img/コンポーネント 5 – 1.png') 0% 0% no-repeat padding-box;
   opacity: 1;
+  z-index: 1;
 }
