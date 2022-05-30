@@ -329,8 +329,8 @@ body {
 .header {
   display: block;
   position: relative;
-  /* width: 1440px; */
-  width: 100%;
+  width: 1440px;
+  /* width: 100%; */
   height: 99px;
   background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
   z-index: auto;
@@ -379,8 +379,8 @@ body {
   position: absolute;
   top: -162px;
   left: -2px;
-  /* width: 1440px; */
-  width: 100%;
+  width: 1440px;
+  /* width: 100%; */
   height: 932px;
   /* UI Properties */
   background: transparent url('../img/グループ 305.png') 0% 0% no-repeat padding-box;
@@ -389,14 +389,19 @@ body {
 }
 
 /****************入会キャンペーン****************/
+/*******main部分は色が共通しているため先に色を定義しておく******/
+.main {
+  background-color: var(--unnamed-color-242424);
+}
 .top-content {
   display: block;
   margin-top: 671px;
 }
 .top-campaign {
-  background-color: var(--unnamed-color-242424);
+
   height: 1099.94px;
-  width: 100%;
+  /* width: 100%; */
+  width: 1440px;
   z-index: -1;
 }
 
@@ -422,15 +427,20 @@ body {
   text-align: center;
   z-index: 2;
 }
+.campaign-context1 {
+  position: relative;
+  z-index: 4;
+}
 
 .campain-background1 {
+  /***borderで対応？**/
 /* Layout Properties */
 position: absolute;
 top: 242px;
-left: 494px;
+right: 0px;
 /* 本来のサイズwidth: 2153px; */
 /* 一旦サイズ（1440px）に合わせて1426pxにしている */
-width: 946px;
+width: 900px;
 /* width: 100%; */
 height: 1650px;
 /* transform: matrix(-1, 0, 0, -1, 0, 0); */
@@ -475,10 +485,334 @@ z-index: 1
 .campaign-price {
   position: relative;
   margin: 0 auto;
+  /* margin-bottom: 71px; */
   width: 831px;
   height: 467px;
   /* UI Properties */
   background: transparent url('../img/コンポーネント 5 – 1.png') 0% 0% no-repeat padding-box;
   opacity: 1;
   z-index: 1;
+  margin-bottom: 71px;
+}
+
+/******************無料カウンセリングお問い合わせ部分**********************/
+.support-back-image {
+  position: relative;
+  margin-top: -141px;
+  /* Layout Properties */
+  /* top: 1697px;
+  left: 0px; */
+  width: 1440px;
+  height: 381px;
+  /* UI Properties */
+  background: transparent url('../img/clay rg-106.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: inline-block;
+  padding-top: 67.96px ;
+}
+
+.support {
+  position: absolute;
+  left: 227px;
+  width: 965px;
+  height: 245px;
+  /* UI Properties */
+  background: url('../img/コンポーネント 2 – 1.png') 0% 0% no-repeat padding-box;
+  /* background: rgba(red, green, blue, 1); */
+  /* opacity: 1; */
+  /* z-index: ; */
+}
+.feature {
+  /* width: 100%; */
+  width: 1440px;
+  /* TODO heightは仮 */
+  height: 2500px;
+  overflow: visible;
+}
+
+.feature-title {
+  /* margin-top: 100px; */
+  /* Layout Properties */
+  margin: 100px auto 0px auto;
+  /* top: 2178px;
+  left: 630px; */
+  width: 180px;
+  height: 66px;
+  /* UI Properties */
+  background: transparent url('../img/グループ 308.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.feature-sub-title {
+  margin: 0 auto;
+  /* top: 2243px;
+  left: 587px; */
+  width: 247px;
+  height: 160px;
+  background: transparent url('../img/グループ 307.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  z-index: 10;
+}
+
+.feature-backcoloer-dark {
+  /* Layout Properties */
+  position: absolute;
+  top: 2293px;
+  /* left: 0.00048828125px; */
+  width: 966px;
+  height: 1100px;
+  /* UI Properties */
+  background: var(--unnamed-color-303030) 0% 0% no-repeat padding-box;
+  background: rgba(48, 48, 48, 1) 0% 0% no-repeat padding-box;
+  opacity: 1;
+  z-index: 2;
+  border-top: 550px solid transparent;
+  border-left: 966px solid rgba(48, 48, 48, 1);
+  border-bottom: 550px solid transparent;
+}
+
+.feature-backcoloer-light {
+  position: absolute;
+  /* top: 1765px; heightを短くしたため、その分topを下げる*/
+  top: 2324px;
+  right: 0;
+  /** heightは余分な長さをカット 上559px**/
+  /* height: 1590px; */
+  height: 1160px;
+  opacity: 0.62;
+  border-right: 1300px solid  rgba(151, 151, 151, 1);
+  border-top: 800px solid transparent;
+  border-bottom: 400px solid transparent;
+}
+
+.campain-background-gradation {
+  position: absolute;
+  /* Layout Properties */
+  top: 3276px;
+  left: 0.000244140625px;
+  width: 1440px;
+  height: 1100px;
+  /* border-left: 1440px solid;
+  border-top: 550px solid transparent;
+  border-bottom: 550px solid transparent;
+  border-image:linear-gradient(180deg, rgba(229, 44, 134, 1) 0%, rgba(255, 180, 216, 1) 100%);
+  border-image-slice: 8; */
+  /* UI Properties */
+  background: url('../img/パス\ 97.png') 0% 0% no-repeat padding-box;
+  z-index: 2;
+}
+
+.feature-inner-picture {
+  width: 1440px;
+}
+
+.feature-inner-picture1 {
+  position: relative;
+  /* Layout Properties */
+  width: 849px;
+  height: 498px;
+  margin-top: 89px;
+  margin: 89px auto 150px auto;
+  /* UI Properties */
+  background: transparent url('../img/グループ 309.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  z-index: 10;
+}
+
+.feature-inner-picture2 {
+  position: relative;
+  margin: 0 auto 150px auto;
+  width: 859px;
+  height: 498px;
+  /* UI Properties */
+  background: transparent url('../img/グループ 310.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.feature-inner-picture3 {
+  position: relative;
+  margin: 0 auto 128.94px auto;
+  width: 859px;
+  height: 498px;
+  /* UI Properties */
+  background: transparent url('../img/グループ 311.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  z-index: 10;
+}
+
+.feature-logo {
+  position: absolute;
+  top: 4323px;
+  left: 11px;
+  width: 577px;
+  height: 210px;
+  background: transparent url('../img/REGULS.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  z-index: 10;
+}
+
+.feature-inner-picture4 {
+  position: relative;
+  margin: 0 auto 34px auto;
+  width: 557px;
+  height: 131px;
+  /* UI Properties */
+  background: transparent url('../img/グループ 312.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  z-index: 10;
+}
+
+.featuer-context-picture {
+  position: relative;
+  /* Layout Properties */
+  /* position: absolute; */
+  /* top: 4446px;
+  left: 0px; */
+  width: 1440px;
+  height: 598px;
+  padding-top: 67px;
+  /* UI Properties */
+  background: transparent url('../img/グループ 98.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  z-index: 9;
+}
+
+.feature-inner-picture4-context {
+  /* top: 4678px;
+  left: 281px; */
+  width: 934px;
+  height: 235px;
+  /* UI Properties */
+  background: transparent url('../img/グループ 235.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  z-index: 10;
+  margin: 0 auto;
+}
+
+/**************このような方におすすめ〜************/
+.recommendation {
+  background: #242424 0% 0% no-repeat padding-box;
+}
+.recommendation-title  {
+  position: relative;
+  /* Layout Properties */
+  margin: 150.08px auto 62.81px auto;
+  width: 573px;
+  height: 120px;
+  /* UI Properties */
+  background: transparent url('../img/グループ 103.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  z-index: 10;
+}
+.recommendation-list  {
+  position: relative;
+  /* top: 5377px;
+  left: 183px; */
+  margin: 0 auto;
+  width: 1074px;
+  height: 440px;
+  background: transparent url('../img/グループ 242.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  z-index: 10;
+}
+
+.feature-backcoloer-dark2 {
+  /* Layout Properties */
+  position: absolute;
+  top: 4446px;
+  /* left: 0.00048828125px; */
+  width: 966px;
+  height: 1100px;
+  /* UI Properties */
+  background: var(--unnamed-color-303030) 0% 0% no-repeat padding-box;
+  opacity: 1;
+  z-index: 2;
+  border-top: 550px solid transparent;
+  border-left: 966px solid rgba(48, 48, 48, 1);
+  border-bottom: 550px solid transparent;
+}
+
+.feature-backcoloer-empty {
+  position: absolute;
+  top: 4446px;
+  right: 0;
+  /* left: 0.00048828125px; */
+  width: 966px;
+  height: 1100px;
+  background: #242424 0% 0% no-repeat padding-box;
+  z-index: 0;
+}
+
+
+/*********************price 料金表〜**********************/
+.price-image-small {
+  position: absolute;
+  top: 5918px;
+  left: 140px;
+  width: 176px;
+  height: 181px;
+  background: transparent url('../img/clay rg-76.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  z-index: 10;
+}
+
+.price-image-big {
+  position: absolute;
+  top: 6037px;
+  right: 95px;
+  width: 246px;
+  height: 246px;
+  background: transparent url('../img/IMG_2223.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  z-index: 10;
+}
+
+.price-logo {
+  position: relative;
+  /* top: 5967px;
+  left: 653px; */
+  margin: 150px auto 40px auto;
+  width: 135px;
+  height: 124px;
+  background: transparent url('../img/グループ 112.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.price-content {
+  /* top: 6131px;
+  left: 290px; */
+  width: 757px;
+  height: 152px;
+  margin-left: 290px;
+  margin-right: 393px;
+  margin-bottom: 96px;
+  background: transparent url('../img/グループ 250.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.reguls-course {
+  width: 100%;
+  height: 562px;
+  display: flex;
+}
+
+.course {
+  /* top: 6379px;
+  left: 167px; */
+  width: 329px;
+  height: 571px;
+  background: transparent url('../img/コンポーネント 3 – 1.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.one {
+  margin-left: 167px;
+}
+.two {
+  margin: 0 64px;
+}
+.three {
+  margin-right: 167px;
 }

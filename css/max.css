@@ -1,17 +1,17 @@
 @media screen and (max-width: 1400px) {
   .campain-background1 {
     /* Layout Properties */
-    position: absolute;
+    /* position: absolute;
     top: 242px;
-    left: 494px;
+    left: 494px; */
     /* 本来のサイズwidth: 2153px; */
     /* 一旦フルスクリーンサイズ（1920px）に合わせて1426pxにしている */
-    width: 1426px;
-    height: 1650px;
+    /* width: 1426px;
+    height: 1650px; */
     /* transform: matrix(-1, 0, 0, -1, 0, 0); */
     /* UI Properties */
-    background: transparent url('../img/パス 36.png') 0% 0% no-repeat padding-box;
+    /* background: transparent url('../img/パス 36.png') 0% 0% no-repeat padding-box;
     opacity: 0.8;
-    z-index: 1
+    z-index: 1 */
     }
 }
