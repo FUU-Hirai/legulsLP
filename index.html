@@ -1,10 +1,11 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/style.css">
     <link href="./css/max.css" rel="stylesheet" media="screen and (max-width: 1400px)" />
+    <link href="./css/min.css" rel="stylesheet" media="screen and (max-width: 375px)" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>レグルス池袋</title>
   </head>
@@ -33,17 +34,22 @@
       <div class = "top-content">
         <div class = "top-campaign">
             <div class = "campaign-context">
-              <div class = "campain-background1"></div>
-              <div class = "campain-background2"></div>
-            <p class = "campaign-context1">入会キャンペーンを実施しております！</P><br/>
-            <p class = "campaign-context2">体験からの当日即入会で</p>
-            <p class = "campaign-price_nav">
+              <div class="campaign-background-sp">
+                <p class="campaign-message-sp"></p>
+              </div>
+              <!-- <div class="campain-background-parent"> -->
+                <div class = "campain-background1"></div>
+                <div class = "campain-background2"></div>
+              </div>
+              <p class = "campaign-context1">入会キャンペーンを実施しております！</P><br/>
+              <p class = "campaign-context2">体験からの当日即入会で</p>
+              <p class = "campaign-price_nav">
             </p>
+            <!-- </div> -->
+            <div class = "campaign-price-sp">
             </div>
-            <p class = "campaign-price-parent">
-              <p class = "campaign-price">
-              </p>
-          </p>
+            <p class = "campaign-price">
+            </p>
         </div>
         <div class="support-back-image">
           <div class = "support middle">
@@ -112,9 +118,13 @@
         <div class="access-content-box">
           <div class="access-content-box-child">
             <p class="access-content address"><span class="logo address-logo"></span><span class = "inner-content">東京都豊島区南池袋2-12-5 第6.7中野ビルB1</span></p>
-            <p class="access-content telephone"><span class="logo telephone-logo"></span>03-6914-3123</p>
-            <p class="access-content day"><span class="logo day-logo"></span>月曜〜金曜(木曜以外)16時〜22時 木曜18時30分～23時 ／土曜11時30分〜20時／日曜12時〜17時30分／祝日12時～17時00分</p>
-            <p class="access-content nearest"><span class="logo nearest-logo"></span>JR山手線・埼京線、地下鉄丸の内線・有楽町線、西武池袋線、東武東上線の池袋駅、徒歩５分</p>
+            <p class="access-content telephone"><span class="logo telephone-logo"></span><span class = "inner-telephone">03-6914-3123</span></p>
+            <p class="access-content day"><span class="logo day-logo"></span><span class = "inner-day">月曜〜金曜(木曜以外)16時〜22時 木曜18時30分～23時 ／土曜11時30分〜20時／日曜12時〜17時30分／祝日12時～17時00分</span></p>
+            <p class="access-content nearest"><span class="logo nearest-logo"></span><span class = "inner-ner">
+
+              JR山手線・埼京線、地下鉄丸の内線・有楽町線、西武池袋線、東武東上線の池袋駅、徒歩５分
+            </span>
+          </p>
           </div>
         </div>
         <div class="support-bottom">

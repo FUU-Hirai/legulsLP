@@ -1,0 +1,1024 @@
+@media screen and (max-width: 375px) {
+  :root {
+
+    /* Colors: */
+    --unnamed-color-171c29: #171C29;
+    --unnamed-color-00000034: #00000034;
+    --unnamed-color-fff0f7: #FFF0F7;
+    --unnamed-color-979797: #979797;
+    --unnamed-color-303030: #303030;
+    --unnamed-color-242424: #242424;
+    --unnamed-color-434e95: #434E95;
+    --unnamed-color-897452: #897452;
+    --unnamed-color-64442a: #64442A;
+    --unnamed-color-e52c86: #E52C86;
+    --unnamed-color-707070: #707070;
+    --unnamed-color-c8b98c: #C8B98C;
+    --unnamed-color-2f2f2f: #2F2F2F;
+    --unnamed-color-b02372: #B02372;
+    --unnamed-color-ffffff: #FFFFFF;
+    --unnamed-color-000000: #000000;
+    
+    /* Font/text values */
+    --unnamed-font-family-noto-sans: Noto Sans;
+    --unnamed-font-family-genkaimincho: Genkaimincho;
+    --unnamed-font-family-source-han-serif: Source Han Serif;
+    --unnamed-font-family-noto-serif-jp: Noto Serif JP;
+    --unnamed-font-family-din-2014: DIN 2014;
+    --unnamed-font-family-noto-sans-jp: Noto Sans JP;
+    --unnamed-font-family-senobi-gothic: Senobi Gothic;
+    --unnamed-font-family-c-a-gatintas: C.A. Gatintas;
+    --unnamed-font-style-normal: normal;
+    --unnamed-font-style-italic: italic;
+    --unnamed-font-weight-600: 600px;
+    --unnamed-font-weight-normal: normal;
+    --unnamed-font-weight-bold: bold;
+    --unnamed-font-weight-medium: medium;
+    --unnamed-font-size-9: 9px;
+    --unnamed-font-size-10: 10px;
+    --unnamed-font-size-14: 14px;
+    --unnamed-font-size-16: 16px;
+    --unnamed-font-size-18: 18px;
+    --unnamed-font-size-19: 19px;
+    --unnamed-font-size-20: 20px;
+    --unnamed-font-size-22: 22px;
+    --unnamed-font-size-24: 24px;
+    --unnamed-font-size-25: 25px;
+    --unnamed-font-size-31: 31px;
+    --unnamed-font-size-35: 35px;
+    --unnamed-font-size-38: 38px;
+    --unnamed-font-size-40: 40px;
+    --unnamed-font-size-44: 44px;
+    --unnamed-font-size-80: 80px;
+    --unnamed-character-spacing-0: 0px;
+    --unnamed-character-spacing-0-95: 0.95px;
+    --unnamed-character-spacing-1-75: 1.75px;
+    --unnamed-character-spacing-0-9: 0.9px;
+    --unnamed-character-spacing-2-4: 2.4px;
+    --unnamed-line-spacing-13: 13px;
+    --unnamed-line-spacing-14: 14px;
+    --unnamed-line-spacing-19: 19px;
+    --unnamed-line-spacing-20: 20px;
+    --unnamed-line-spacing-23: 23px;
+    --unnamed-line-spacing-24: 24px;
+    --unnamed-line-spacing-26: 26px;
+    --unnamed-line-spacing-27: 27px;
+    --unnamed-line-spacing-28: 28px;
+    --unnamed-line-spacing-29: 29px;
+    --unnamed-line-spacing-31: 31px;
+    --unnamed-line-spacing-32: 32px;
+    --unnamed-line-spacing-35: 35px;
+    --unnamed-line-spacing-36: 36px;
+    --unnamed-line-spacing-45: 45px;
+    --unnamed-line-spacing-50: 50px;
+    --unnamed-line-spacing-55: 55px;
+    --unnamed-line-spacing-56: 56px;
+    --unnamed-line-spacing-58: 58px;
+    --unnamed-line-spacing-64: 64px;
+    --unnamed-line-spacing-102: 102px;
+    }
+    
+    /* Character Styles */
+    .unnamed-character-style-1 {
+    font-family: var(--unnamed-font-family-noto-serif-jp);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-medium);
+    font-size: var(--unnamed-font-size-14);
+    line-height: var(--unnamed-line-spacing-20);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    }
+    .unnamed-character-style-2 {
+    font-family: var(--unnamed-font-family-senobi-gothic);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-9);
+    line-height: var(--unnamed-line-spacing-13);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-2f2f2f);
+    }
+    .unnamed-character-style-3 {
+    font-family: var(--unnamed-font-family-senobi-gothic);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-10);
+    line-height: var(--unnamed-line-spacing-14);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-2f2f2f);
+    }
+    .unnamed-character-style-4 {
+    font-family: var(--unnamed-font-family-din-2014);
+    font-style: var(--unnamed-font-style-italic);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-24);
+    line-height: var(--unnamed-line-spacing-31);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-e52c86);
+    }
+    .unnamed-character-style-5 {
+    font-family: var(--unnamed-font-family-noto-serif-jp);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-14);
+    line-height: var(--unnamed-line-spacing-20);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    }
+    .unnamed-character-style-6 {
+    font-family: var(--unnamed-font-family-noto-sans-jp);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-bold);
+    font-size: var(--unnamed-font-size-16);
+    line-height: var(--unnamed-line-spacing-24);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-e52c86);
+    }
+    .unnamed-character-style-7 {
+    font-family: var(--unnamed-font-family-source-han-serif);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-600);
+    font-size: var(--unnamed-font-size-24);
+    line-height: var(--unnamed-line-spacing-35);
+    letter-spacing: var(--unnamed-character-spacing-2-4);
+    color: var(--unnamed-color-ffffff);
+    }
+    .unnamed-character-style-8 {
+    font-family: var(--unnamed-font-family-noto-serif-jp);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-medium);
+    font-size: var(--unnamed-font-size-18);
+    line-height: var(--unnamed-line-spacing-26);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    }
+    .unnamed-character-style-9 {
+    font-family: var(--unnamed-font-family-senobi-gothic);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-40);
+    line-height: var(--unnamed-line-spacing-56);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-e52c86);
+    }
+    .unnamed-character-style-10 {
+    font-family: var(--unnamed-font-family-senobi-gothic);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-20);
+    line-height: var(--unnamed-line-spacing-28);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-2f2f2f);
+    }
+    .unnamed-character-style-11 {
+    font-family: var(--unnamed-font-family-senobi-gothic);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-25);
+    line-height: var(--unnamed-line-spacing-36);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-2f2f2f);
+    }
+    .unnamed-character-style-12 {
+    font-family: var(--unnamed-font-family-senobi-gothic);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-40);
+    line-height: var(--unnamed-line-spacing-56);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-2f2f2f);
+    }
+    .unnamed-character-style-13 {
+    font-family: var(--unnamed-font-family-noto-sans-jp);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-20);
+    line-height: var(--unnamed-line-spacing-29);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-2f2f2f);
+    }
+    .unnamed-character-style-14 {
+    font-family: var(--unnamed-font-family-noto-sans-jp);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-medium);
+    font-size: var(--unnamed-font-size-40);
+    line-height: var(--unnamed-line-spacing-58);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-2f2f2f);
+    }
+    .unnamed-character-style-15 {
+    font-family: var(--unnamed-font-family-noto-serif-jp);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-18);
+    line-height: var(--unnamed-line-spacing-26);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    }
+    .unnamed-character-style-16 {
+    font-family: var(--unnamed-font-family-source-han-serif);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-600);
+    font-size: var(--unnamed-font-size-18);
+    line-height: var(--unnamed-line-spacing-26);
+    letter-spacing: var(--unnamed-character-spacing-0-9);
+    color: var(--unnamed-color-ffffff);
+    }
+    .unnamed-character-style-17 {
+    font-family: var(--unnamed-font-family-noto-serif-jp);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-31);
+    line-height: var(--unnamed-line-spacing-45);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-2f2f2f);
+    }
+    .unnamed-character-style-18 {
+    font-family: var(--unnamed-font-family-noto-sans-jp);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-16);
+    line-height: var(--unnamed-line-spacing-24);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-2f2f2f);
+    }
+    .unnamed-character-style-19 {
+    font-family: var(--unnamed-font-family-din-2014);
+    font-style: var(--unnamed-font-style-italic);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-80);
+    line-height: var(--unnamed-line-spacing-102);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-897452);
+    }
+    .unnamed-character-style-20 {
+    font-family: var(--unnamed-font-family-noto-serif-jp);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-44);
+    line-height: var(--unnamed-line-spacing-64);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    }
+    .unnamed-character-style-21 {
+    font-family: var(--unnamed-font-family-noto-sans-jp);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-38);
+    line-height: var(--unnamed-line-spacing-55);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    }
+    .unnamed-character-style-22 {
+    font-family: var(--unnamed-font-family-source-han-serif);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-bold);
+    font-size: var(--unnamed-font-size-35);
+    line-height: var(--unnamed-line-spacing-50);
+    letter-spacing: var(--unnamed-character-spacing-1-75);
+    color: var(--unnamed-color-ffffff);
+    }
+    .unnamed-character-style-23 {
+    font-family: var(--unnamed-font-family-c-a-gatintas);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-22);
+    line-height: var(--unnamed-line-spacing-32);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    }
+    .unnamed-character-style-24 {
+    font-family: var(--unnamed-font-family-source-han-serif);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-19);
+    line-height: var(--unnamed-line-spacing-27);
+    letter-spacing: var(--unnamed-character-spacing-0-95);
+    color: var(--unnamed-color-000000);
+    }
+    .unnamed-character-style-25 {
+    font-family: var(--unnamed-font-family-genkaimincho);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-19);
+    line-height: var(--unnamed-line-spacing-23);
+    letter-spacing: var(--unnamed-character-spacing-0-95);
+    color: var(--unnamed-color-000000);
+    }
+    .unnamed-character-style-26 {
+    font-family: var(--unnamed-font-family-noto-sans);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-14);
+    line-height: var(--unnamed-line-spacing-19);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-2f2f2f);
+    }
+  body {
+    /* width: 375px; */
+    position: relative;
+    background-color: #242424;
+    z-index: -1;
+    width: 375px;
+    height: 11210px;
+    overflow-x: hidden;
+  }
+  .header {
+    display: block;
+    position: relative;
+    width: 375px;
+    /* width: 100%; */
+    height: 70px;
+    background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
+  }
+  .top-logo-main {
+    /* position: absolute;
+    top: 11px;
+    left: 95px;
+    width:163px;
+    height: 71px;
+    background: transparent url('../img/グループ 35.png') 0% 0% no-repeat padding-box;
+    opacity: 1; */
+    margin: 0 auto;
+    top:12px;
+    left: 136px;
+    width: 103px;
+    height: 46px;
+    background: transparent url('../img/グループ 155.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+
+  .top-support {
+    display: none;
+  }
+
+  .top-logo-sub {
+    display: none;
+  }
+/*******************トップ画像*******************/
+  .top-image {
+    top: 70px; 
+    left: 0px; 
+    position: absolute;
+    width: 375px;
+    height: 539px;
+    background: transparent url('../img/グループ 314.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 5;
+  }
+
+  .top-campaign {
+    width: 375px;
+  }
+
+  .campaign-context {
+    width: 375px;
+  }
+
+  .campaign-background-sp {
+    position: absolute;
+    top: 609px;
+    left: 0px;
+    width: 375px;
+    height: 80px;
+    background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+
+  .campain-background1 {
+    /* top: 379px; */
+    top:722px;
+    /* left: 0.000244140625px; */
+    /* width: 1129px;
+    height: 866px;
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+    background: var(--unnamed-color-979797) 0% 0% no-repeat padding-box;
+    background: #979797 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: -1; */
+
+    position: absolute;
+    /* top: 1765px; heightを短くしたため、その分topを下げる*/
+    /* top: 2324px; */
+    right: 0;
+    /** heightは余分な長さをカット 上559px**/
+    /* height: 1590px; */
+    /* height: 1160px; */
+    height: 160px;
+    opacity: 0.9;
+    border-right: 187.5px solid  rgba(151, 151, 151, 1);
+    /* border-right: 1300px solid  rgba(151, 151, 151, 1); */
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent;
+    /* z-index: 10; */
+  }
+
+  .campain-background2 {
+    position: absolute;
+    top: 633px;
+    left: -355.6533203125px;
+    width: 1129px;
+    height: 866px;
+    background: transparent url('../img/パス 120.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    /***overflow聞かない*******/
+    overflow: hidden;
+  }
+
+  .campaign-context2 {
+    position: absolute;
+    /* text-align: center; */
+    top: 781px;
+    left: 84px;
+    z-index: 2;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-source-han-serif);
+    letter-spacing: var(--unnamed-character-spacing-0-9);
+    color: var(--unnamed-color-ffffff);
+    /* text-align: left; */
+    font: normal normal bold 18px/26px Source Han Serif;
+    letter-spacing: 0.9px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-bottom: 27.5px;
+  }
+  .top-content {
+    margin-top: 0;
+  }
+  
+
+  .campaign-context1 {
+    position: absolute;
+    z-index: 4;
+    top: 741px;
+    left: 17px;
+    /* margin-top: 52px; */
+    /* width: 339px;
+    height: 26px; */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-source-han-serif);
+    letter-spacing: var(--unnamed-character-spacing-0-9);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 18px/26px Source Han Serif;
+    letter-spacing: 0.9px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+
+  .campain-background-parent {
+    display: block;
+    width: 375px;
+    height: 1000px;
+    margin-top: 0;
+  }
+  .campaign-price {
+    display: none;
+  }
+
+  .campaign-price_nav {
+    position: absolute;
+    /* top: 835px; */
+    top: 824px;
+    left: 55px;
+    width: 260px;
+    height: 100px;
+    background: transparent url('../img/パス 121.png') 0% 0% no-repeat padding-box;
+    /* box-shadow: 0px 3px 10px #FFFFFF65; */
+    opacity: 1;
+    margin-top:0;
+    margin-bottom:50.16px ;
+  }
+  .campaign-price {
+    display: none;
+  }
+
+  .campaign-price-sp {
+    position: absolute;
+    /* top: 959px; */
+    top: 967px;
+    left: 14px;
+    width: 341px;
+    height: 624px;
+    background: transparent url('../img/コンポーネント 6 – 1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-bottom: 60px;
+  }
+
+  .support-back-image {
+    position:absolute;
+    /* top: 1643px; */
+    top: 1793px;
+    left: 0px;
+    width: 375px;
+    height: 506px;
+    background: transparent url('../img/clay rg-106.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 1000;
+    margin-bottom: 80px;
+  }
+
+  .feature-inner-picture1 {
+
+    position: absolute;
+    top: 2459px;
+    left: 0px;
+    width: 375px;
+    height: 524px;
+    background: transparent url('../img/グループ 220.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+
+  /*************4つの特徴***********/
+  .feature {
+    width: 375px;
+  }
+  .feature-title {
+    position: absolute;
+    top: 2229px;
+    left: 91px;
+    width: 194px;
+    height: 182px;
+    background: transparent url('../img/グループ 315.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 10;
+    margin-top: 0;
+    border-bottom: solid #b7b3b3;
+    border-bottom-width: 2px;
+    margin-bottom: 47.57px;
+  }
+
+  /* .featuer-context-picture {
+    position:absolute;
+    top: 5000px
+  } */
+
+
+  .support {
+    position: absolute;
+    /* top: 1701px; */
+    /* top: 1891px; */
+    top: 58px;
+    left: 6px;
+    width: 352px;
+    height: 391px;
+    background: transparent url('../img/コンポーネント 7 – 1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+
+  /***feature-inner-picture1はブロック要素のためfeature-inner-pictureで管理***/
+  /* .feature-inner-picture1 {
+    display: none;
+  } */
+  .feature-inner-picture1 {
+    position: absolute;
+    top: 2459px;
+    left: 0px;
+    width: 375px;
+    height: 524px;
+    background: transparent url('../img/グループ 220.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+  .feature-inner-picture2 {
+    position: absolute;
+    top: 3083px;
+    left: 0px;
+    width: 375px;
+    height: 536px;
+    background: transparent url('../img/グループ 222.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-bottom: 100px;
+  }
+
+  .feature-inner-picture3 {
+    position: absolute;
+    top: 3719px;
+    left: 0.00048828125px;
+    width: 375px;
+    height: 536px;
+    background: transparent url('../img/グループ 221.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+
+  .feature-logo {
+    position: absolute;
+    top: 4356px;
+    left: 17px;
+    width: 308px;
+    height: 112px;
+    background: transparent url('../img/REGULS.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 10;
+  }
+
+  .feature-backcoloer-dark {
+    position: absolute;
+    top:2430px;
+
+    /* left: 0.00048828125px; */
+    width: 375px;
+    /* height: 1100px; */
+    height: 585px;
+    background: var(--unnamed-color-303030) 0% 0% no-repeat padding-box;
+    background: rgba(48, 48, 48, 1) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 2;
+    border-top: 100px solid transparent;
+    border-left: 375px solid rgba(48, 48, 48, 1);
+    border-bottom: 180px solid transparent;
+}
+
+.feature-backcoloer-light {
+  position: absolute;
+  top:2810px;
+
+  /* position: absolute;
+  /* top: 1765px; heightを短くしたため、その分topを下げる*/
+  /* top: 2324px; */
+  /* right: 0; */
+  /** heightは余分な長さをカット 上559px**/
+  /* height: 1590px; */
+  height: 300px;
+  opacity: 0.62;
+  border-right: 375px solid  rgba(151, 151, 151, 1);
+  border-top: 170px solid transparent;
+  border-bottom: 150px solid transparent;
+  z-index: 3;
+}
+
+.campain-background-gradation {
+  position: absolute;
+  top:3130px;
+  /* height: 400px; */
+  width: 1335px;
+  left: -960;
+  background-color: #242424;
+}
+
+.feature-inner-picture3 {
+  background-color: #242424;
+  margin-bottom: 100.5px;
+}
+
+.feature-inner-picture {
+  width: 375px;
+  background-color: #242424;
+  
+}
+.feature-sub-title {
+  display: none;
+}
+
+
+
+  }
+/***************リズミカルキックとは？の部分から******************/
+  .featuer-context-picture {
+    position: absolute;
+    top: 4420px;
+    left: 0px;
+    width: 375px;
+    height: 716px;
+    background: transparent url('../img/clay rg-112.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top: 0px;
+  }
+
+  .feature-inner-picture4 {
+    position: absolute;
+    /* top: 4470px; */
+    /* top:3070px; */
+    left: 44px;
+    margin-top: 50px;
+  
+    width: 282px;
+    height: 170px;
+    background: transparent url('../img/グループ 316.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+
+  .feature-inner-picture4-context {
+    /* top: 4680px;
+    left: 17px; */
+    margin-top:260px;
+    width: 341px;
+    height: 402px;
+    background: transparent url('../img/グループ 317.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+
+  /****************このような方におすすめです******************************/
+  .recommendation-and-price {
+    position: relative;
+    margin-top: 100px;
+    top: 3967px;
+    z-index: 10;
+    width: 375px;
+  }
+  .recommendation-title {
+    position: relative;
+    margin-top: 0;
+    left: 32px;
+    width: 312px;
+    height: 68px;
+    background: transparent url('../img/グループ 241.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 10;
+    margin-bottom: 34.4px;
+    margin-left: 0;
+  }
+
+  .recommendation-list {
+    position: absolute;
+    top: 104px;
+    left: 17px;
+    width: 341px;
+    height: 587px;
+    background: transparent url('../img/グループ 248.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 0;
+  }
+  /**************料金部分**************/
+.recommendation {
+  position: relative;
+
+}
+.price-logo {
+  position: absolute;
+  top: 858px;
+  left: 127px;
+  width: 122px;
+  height: 103px;
+  background: transparent url('../img/グループ 249.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-top: 0;
+}
+.price-image-small {
+  top: 773px;
+  left: 0px;
+  width: 134px;
+  height: 137px;
+  background: transparent url('../img/clay rg-76.png') 0% 0% no-repeat padding-box;
+  opacity: 0.75;
+}
+
+.price-image-big {
+  display: none;
+}
+
+.price-content {
+  position: absolute;
+  top: 991.38px;
+  /* top: 6227px; */
+  left: 7px;
+  width: 362px;
+  height: 83px;
+  background: transparent url('../img/グループ 255.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: 0;
+  /* margin-bottom: 50px; */
+}
+
+/***************コース説明*************************/
+.reguls-course {
+  position: absolute;
+  display: block;
+  top:1123px;
+  left: 23px;
+}
+
+.course {
+  margin: 0;
+  margin-bottom: 45px;
+}
+
+/*****************タイムテーブル・1日の流れ***************************/
+.time-table {
+  /* position: relative; */
+  width: 375px;
+}
+.time-table-title {
+  position: absolute;
+  /* top: 8273px; */
+  top: 3085px;
+  to÷p: 0px;
+  left: 64px;
+  width: 247px;
+  height: 103px;
+  background: transparent url('../img/グループ 256.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: 0;
+}
+
+.time-table-image {
+  position:absolute;
+  /* top: 8423px; */
+  top: 3235.03px;
+  left: 6px;
+  width: 360px;
+  height: 576px;
+  background: transparent url('../img/グループ 318.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: 0;
+}
+
+.time-table-note {
+  position:absolute;
+  top:3826.28px;
+  left: 14px;
+  width: 348px;
+  height: 30px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-10)/15px var(--unnamed-font-family-noto-sans-jp);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal normal 10px/15px Noto Sans JP;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+/*************期間限定キャンペーン****************************/
+
+.time-table-campaign {
+  position: absolute;
+  /* top: 9167px; */
+  top: 3956.28px;
+  left: 14px;
+  width: 341px;
+  height: 624px;
+  background: transparent url('../img/コンポーネント 6 – 1.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-bottom: 120px;
+}
+
+/***********************アクセス***********************************/
+.access-logo {
+  position: absolute;
+  /* top: 9888px; */
+  top: 4700.28px;
+  left: 111px;
+  width: 153px;
+  height: 103px;
+  background: transparent url('../img/グループ 272.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  z-index: 10;
+}
+
+.access-map {
+  position: absolute;
+  /* top: 10031px; */
+  top: 4843.28px;
+  left: 17px;
+  width: 341px;
+  height: 241px;
+  background: transparent url('../img/グループ 141.png') 0% 0% no-repeat ;
+  /* background: var(--unnamed-color-00000034) 0% 0% no-repeat padding-box; */
+  /* background: #00000034 0% 0% no-repeat padding-box; */
+  opacity: 1;
+  z-index: 10;
+}
+
+.access-content-box {
+  position: absolute;
+  top:5114.28px;
+}
+
+.address-logo {
+  position: absolute;
+  /* top: 10302px; */
+  /* top:5114.28px; */
+  top:0px;
+  left: 17px;
+  /* TODO サイズ調整必要 */
+  /* width: 24px;
+  height: 32px; */
+  background: transparent url('../img/Icon awesome-map-marker-alt.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: 0;
+  z-index: 10;
+}
+
+.inner-content {
+  position: absolute;
+  top:6px;
+  left: 58px;
+  width: 277px;
+  height: 20px;
+  z-index: 10;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-20) var(--unnamed-font-family-noto-serif-jp);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal medium 14px/20px Noto Serif JP;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+
+  font-size: 14px;
+}
+
+.telephone-logo {
+  position: absolute;
+  top:62.45;
+  z-index: 10;
+  left: 17px;
+  /* width: 24px;
+  height: 24px; */
+}
+
+.inner-telephone {
+  position: absolute;
+  top: 64.45px;
+  left: 58px;
+  z-index: 10;
+  font-size: 14px;
+}
+
+.day-logo {
+  position: absolute;
+  top: 116.84px;
+  z-index: 10;
+  left: 17px;
+}
+
+.inner-day {
+  position: absolute;
+  top: 116.84px;
+  z-index: 10;
+  left: 58px;
+  width: 213px;
+  height: 100px;
+  font-size: 14px;
+}
+
+.nearest-logo {
+  position: absolute;
+  top:252.74px;
+  left: 17px;
+  z-index: 10;
+}
+.inner-ner {
+  position: absolute;
+  top:246.84px;
+  left: 58px;
+  width: 310px;
+  height: 40px;
+  /* TODOサイズ変更必要 */
+  font-size: 14px;
+  z-index: 10;
+  margin-bottom: 70.16px;
+}
+
+/*********************無料カウンセリング*******************************/
+.support-bottom {
+  position: absolute;
+  top:5384.28px;
+  left: 12px;
+  width: 352px;
+  height: 391px;
+  background: transparent url('../img/コンポーネント 7 – 1.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-bottom: 80px;
+}
+
+.feature-backcoloer-dark2 {
+  display: none;
+}
+
+.feature-backcoloer-empty {
+  display: none;
+}
+
+.time-table-background-pink {
+  display: none;
+}
+
+/********************フッター*********************************************/
+.footer {
+  left: 0;
+  position: absolute;
+  /* top: 11130px; */
+  top: 11230px;
+  left: 0px;
+  width: 375px;
+  height: 80px;
+  background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
+  background: #000000 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding-top:0;
+}
+
+.footer > p {
+  margin-top: 32px;
+  font-size: 12px;
+}
+  
+.access-content-box {
+  width: 375px;
+}
+
+.access-content-box-child {
+  width: 375px;
+}
+  
