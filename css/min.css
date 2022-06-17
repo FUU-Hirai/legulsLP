@@ -511,6 +511,7 @@
     width: 375px;
     height: 506px;
     background: transparent url('../img/clay rg-106.png') 0% 0% no-repeat padding-box;
+    /* background-size: 375px 506px; */
     opacity: 1;
     z-index: 1000;
     margin-bottom: 80px;
@@ -604,9 +605,10 @@
     position: absolute;
     top: 4356px;
     left: 17px;
-    width: 308px;
+    /* width: 308px;
     height: 112px;
-    background: transparent url('../img/REGULS.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../img/REGULS.png') 0% 0% no-repeat padding-box; */
+    background-size:308px 112px ;
     opacity: 1;
     z-index: 10;
   }
@@ -682,6 +684,7 @@
     background: transparent url('../img/clay rg-112.png') 0% 0% no-repeat padding-box;
     opacity: 1;
     padding-top: 0px;
+    background-size: 375px 716px;
   }
 
   .feature-inner-picture4 {
@@ -756,9 +759,10 @@
 .price-image-small {
   top: 773px;
   left: 0px;
-  width: 134px;
-  height: 137px;
-  background: transparent url('../img/clay rg-76.png') 0% 0% no-repeat padding-box;
+  /* width: 134px;
+  height: 137px; */
+  background-size:134px 137px ;
+  /* background: transparent url('../img/clay rg-76.png') 0% 0% no-repeat padding-box; */
   opacity: 0.75;
 }
 
@@ -893,20 +897,22 @@
   /* TODO サイズ調整必要 */
   /* width: 24px;
   height: 32px; */
-  background: transparent url('../img/Icon awesome-map-marker-alt.png') 0% 0% no-repeat padding-box;
+  /* background: transparent url('../img/Icon awesome-map-marker-alt.png') no-repeat; */
+  background-size:24px 32px ;
   opacity: 1;
   margin: 0;
   z-index: 10;
 }
 
 .inner-content {
+  font-family: 'Noto Serif JP', serif;
   position: absolute;
   top:6px;
   left: 58px;
   width: 277px;
   height: 20px;
   z-index: 10;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-20) var(--unnamed-font-family-noto-serif-jp);
+  /* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-20) var(--unnamed-font-family-noto-serif-jp); */
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-ffffff);
   text-align: left;
@@ -925,6 +931,7 @@
   left: 17px;
   /* width: 24px;
   height: 24px; */
+  background-size: 24px;
 }
 
 .inner-telephone {
@@ -933,6 +940,7 @@
   left: 58px;
   z-index: 10;
   font-size: 14px;
+  font-family: 'Noto Serif JP', serif;
 }
 
 .day-logo {
@@ -940,16 +948,30 @@
   top: 116.84px;
   z-index: 10;
   left: 17px;
+  background-size:24.33px;
 }
 
 .inner-day {
-  position: absolute;
+  /* position: absolute;
   top: 116.84px;
   z-index: 10;
   left: 58px;
   width: 213px;
   height: 100px;
+  font-size: 14px; */
+  display: none
+}
+
+.inner-day-sp {
+  display: block;
+  position: absolute;
+  top: 116.84px;
+  z-index: 10;
+  left: 58px;
+  width: 215px;
+  height: 100px;
   font-size: 14px;
+  font-family: 'Noto Serif JP', serif;
 }
 
 .nearest-logo {
@@ -957,6 +979,7 @@
   top:252.74px;
   left: 17px;
   z-index: 10;
+  background-size:24.33px 27.8px;
 }
 .inner-ner {
   position: absolute;
@@ -968,6 +991,7 @@
   font-size: 14px;
   z-index: 10;
   margin-bottom: 70.16px;
+  font-family: 'Noto Serif JP', serif;
 }
 
 /*********************無料カウンセリング*******************************/
@@ -1011,7 +1035,11 @@
 
 .footer > p {
   margin-top: 32px;
-  font-size: 12px;
+  font-size: 10px;
+  letter-spacing: 0px;
+  height: 17px;
+  width: 328px;
+  text-align: center;
 }
   
 .access-content-box {
