@@ -382,6 +382,7 @@
     height: 80px;
     background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
     background: #000000 0% 0% no-repeat padding-box;
+    background-image: url('../img/グループ 165.png');
     opacity: 1;
   }
 
@@ -681,7 +682,8 @@
     left: 0px;
     width: 375px;
     height: 716px;
-    background: transparent url('../img/clay rg-112.png') 0% 0% no-repeat padding-box;
+    /* background: transparent url('../img/clay rg-112.png') 0% 0% no-repeat padding-box; */
+    background: transparent url('../img/グループ 330.png') 0% 0% no-repeat padding-box;
     opacity: 1;
     padding-top: 0px;
     background-size: 375px 716px;
@@ -805,7 +807,6 @@
   position: absolute;
   /* top: 8273px; */
   top: 3085px;
-  to÷p: 0px;
   left: 64px;
   width: 247px;
   height: 103px;
