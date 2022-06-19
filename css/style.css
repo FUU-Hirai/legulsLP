@@ -378,13 +378,16 @@ body {
   z-index: -1;
   position: absolute;
   top: -162px;
-  left: -2px;
-  width: 1440px;
+  left: -9px;
   /* width: 100%; */
-  height: 932px;
+  width: 1456px;
+  /* height: 932px; */
+  height: 937px;
   /* UI Properties */
-  background: transparent url('../img/グループ 305.png') 0% 0% no-repeat padding-box;
+  /* background: url('../img/グループ 305.png') 0% 0% no-repeat padding-box; */
+  background-image: url('../img/グループ 305.png');
   opacity: 1;
+  object-fit: cover;
   /* background-size:cover ; */
 }
 
