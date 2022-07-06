@@ -385,7 +385,8 @@ body {
   height: 937px;
   /* UI Properties */
   /* background: url('../img/グループ 305.png') 0% 0% no-repeat padding-box; */
-  background-image: url('../img/グループ 305.png');
+  /* background-image: url('../img/グループ 305.png'); */
+  background-image: url('../img/グループ 305_FIX.png');
   opacity: 1;
   object-fit: cover;
   /* background-size:cover ; */
@@ -530,7 +531,8 @@ z-index: 1
   width: 965px;
   height: 245px;
   /* UI Properties */
-  background: url('../img/コンポーネント 2 – 1.png') 0% 0% no-repeat padding-box;
+  /* background: url('../img/コンポーネ÷ント 2 – 1.png') 0% 0% no-repeat padding-box; */
+  background: url('../img/コンポーネント 2 – 1_FIX.png') 0% 0% no-repeat padding-box;
   /* background: rgba(red, green, blue, 1); */
   /* opacity: 1; */
   /* z-index: ; */
