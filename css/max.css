@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 1441px) {
   .campain-background1 {
     /* Layout Properties */
     /* position: absolute;
@@ -13,5 +13,119 @@
     /* background: transparent url('../img/パス 36.png') 0% 0% no-repeat padding-box;
     opacity: 0.8;
     z-index: 1 */
+    }
+
+    body {
+      overflow-x: hidden;
+    }
+
+    /**********ヘッダー部分***********/
+    .header {
+      width: 100%;
+    }
+    .header-child {
+      width: 100%;
+    }
+
+    /***********トップ画像*********************/
+    .top-image {
+      /* background-position: center top; */
+      /* background-repeat: no-repeat; */
+      /* -moz-background-size: cover; */
+      background-size: cover;
+      background-position: left -2px ;
+      width: 102%;
+      /* height:1500px; */
+      left: -13px;
+      height: 1300px;
+      /* z-index: 10; */
+    }
+
+    .campaign-context {
+      height: 100px;
+    }
+
+    .top-campaign {
+      width: 100%;
+    }
+
+    .support-back-image {
+      width: 100%;
+      background-size: cover;
+      /* margin: 0 auto; */
+    }
+
+    .support {
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    /************4つの特長************************************/
+    .feature {
+      width:100%;
+    }
+
+    .feature-inner-picture {
+      width: 100%;
+    }
+
+  
+    /***************リズミカルキックとは？***********************************/
+    .featuer-context-picture {
+      width:112%;
+      background-size: cover; 
+      height: 900px;
+      left: -130px;
+    }
+
+
+    /*********************料金部分******************************/
+    .price {
+      width: 100%;
+    }
+
+    .feature-backcoloer-dark2 {
+      border-bottom: 550px solid #242424;
+    }
+
+    .price-content {
+      margin: 0 auto 96px auto;
+    }
+
+    .one{
+      margin: 0 0 0 auto;
+    }
+    .three {
+      margin: 0 auto 0 0;
+    }
+    .two {
+      margin-left:64px;
+      margin-right: 64px; 
+    }
+
+    /************1日の流れ********/
+    .time-table {
+      width: 100%;
+    }
+
+    .time-table-image {
+      margin: 0 auto;
+    }
+
+
+    /*************アクセス*******************/
+    .access-map {
+      width: 100%;
+      background-size: cover; 
+    }
+
+    .access-content-box {
+      width: 100%;
+    }
+
+
+    /**************footer******************/
+    .footer {
+      width: 100%;
     }
 }
