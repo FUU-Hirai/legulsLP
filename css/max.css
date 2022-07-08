@@ -29,10 +29,10 @@
 
     /***********トップ画像*********************/
     .top-image {
-      /* background-position: center top; */
-      /* background-repeat: no-repeat; */
-      /* -moz-background-size: cover; */
-      background-size: cover;
+      /* background-position: center top; 
+      background-repeat: no-repeat; 
+      -moz-background-size: cover;  */
+      background-size: contain;
       background-position: left -2px ;
       width: 102%;
       /* height:1500px; */
@@ -47,6 +47,18 @@
 
     .top-campaign {
       width: 100%;
+    }
+
+    .top-content {
+      margin-top: 980px;
+    }
+
+    .campain-background2 {
+      top:1080px;
+    }
+
+    .campain-background1 {
+      top: 560px;
     }
 
     .support-back-image {
@@ -65,17 +77,33 @@
       width:100%;
     }
 
+    .feature-logo {
+      top:4323px;
+    }
+
     .feature-inner-picture {
       width: 100%;
+      background-color: #242424;
     }
 
   
     /***************リズミカルキックとは？***********************************/
+
+    .recommendation-title {
+      background-color: #242424;
+    }
     .featuer-context-picture {
       width:112%;
       background-size: cover; 
       height: 900px;
       left: -130px;
+    }
+    .recommendation-and-price {
+      padding-top:150.080px;
+    }
+
+    .recommendation-title {
+      margin-top:0;
     }
 
 
