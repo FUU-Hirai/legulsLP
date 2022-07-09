@@ -68,8 +68,9 @@
     }
 
     .support {
-      text-align: center;
-      margin: 0 auto;
+      /* text-align: center;
+      margin: 0 auto; */
+      left: 25%;
     }
 
     /************4つの特長************************************/
@@ -78,7 +79,7 @@
     }
 
     .feature-logo {
-      top:4323px;
+      top:4653px;
     }
 
     .feature-inner-picture {
@@ -86,6 +87,13 @@
       background-color: #242424;
     }
 
+    .feature-backcoloer-dark {
+      top:2693px;
+    }
+
+    .feature-backcoloer-light {
+      top:2524px;
+    }
   
     /***************リズミカルキックとは？***********************************/
 
