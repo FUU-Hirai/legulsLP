@@ -828,6 +828,14 @@ z-index: 1
   opacity: 1;
 }
 
+.two {
+  background: url('../img/グループ 488.png');
+}
+
+.three {
+  background: url('../img/コンポーネント 3 – 7.png');
+}
+
 .one {
   margin-left: 167px;
 }
